@@ -3,7 +3,8 @@
 
 ### 一.设置headers请求头信息    
 1.jquery    
-headers:{'Authorization':'Bearer ' + token'}
+headers:{'Authorization':'Bearer ' + token'}   
+
 2.weui.js    
 $.extend(headers, {'Authorization':'Bearer ' + token,'JB-Filename':encodeURI(this.name)})
 
